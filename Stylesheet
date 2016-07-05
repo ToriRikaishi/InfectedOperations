@@ -1,0 +1,64 @@
+body {
+	background-color: #0C0B0D;
+	font-family: Arial;
+}
+.Contenedor {
+	background-color: #18171A;
+	width: 98%;
+	margin-top: 25px;
+	overflow:hidden;
+}
+.SectionB {
+ 	background-color: #29272D;
+	margin-top: 25px;
+	margin-right: 10px;
+ 	width: 73%;
+ 	padding: 0px;
+ 	box-sizing: border-box;
+ 	float: right;
+ 	height: auto;
+}
+.B{
+	background-color: #37353B;
+	width: 80%;	
+	margin-top:25px;
+	padding: 2.5%;
+}
+aside {
+	background-color: #29272D;
+	margin-top: 25px;
+	margin-left: 10px;
+	width: 25%;
+	padding: 0px;
+	box-sizing: border-box;
+	float: left;
+}
+.A{
+	background-color: #37353B;
+	width: 80%;
+	margin-top:25px;
+}
+.Footer {
+	clear: both;
+	float: left;
+	margin-top: 25px;
+	background-color: #29272D;
+	padding: 0px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px){
+	.SectionB {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.Contenedor {
+		width: 100%
+	}
+}
